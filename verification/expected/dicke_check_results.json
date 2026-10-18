@@ -1,0 +1,256 @@
+{
+  "status": "PASS",
+  "interpretation": "Finite consistency checks only; analytic proofs establish the general upper bound. No unrestricted mixed-query lower bound was tested or proved.",
+  "seed": 4062026,
+  "full_tensor_instances": 378,
+  "moment_instances": 5150,
+  "budget_schedule_instances": 571,
+  "max_errors": {
+    "calibration_vector": 0.0,
+    "forward_tensor_identity": 2.063188499073667e-15,
+    "inverse_weight_identity": 1.5543122344752192e-15,
+    "survival_formula": 3.552713678800501e-15,
+    "second_moment_relative": 2.6074962780187164e-16,
+    "fourth_moment_relative": 4.735718311756982e-16
+  },
+  "gamma_range": [
+    1.500000000018357,
+    1.6618907969738386
+  ],
+  "proved_conditional_detection_lower_bound": 0.7177734375,
+  "minimum_sampled_conditional_detection": 0.7768700071992392,
+  "examples": [
+    {
+      "epsilon": 0.25,
+      "inverse_K": 0,
+      "forward_F": 24,
+      "gamma": 1.5323354721279832,
+      "conditional_detection": 0.7875236322311855,
+      "total_detection": 0.7875236322311855
+    },
+    {
+      "epsilon": 0.25,
+      "inverse_K": 1,
+      "forward_F": 9,
+      "gamma": 1.596182783466649,
+      "conditional_detection": 0.8781697740923846,
+      "total_detection": 0.8857841632116106
+    },
+    {
+      "epsilon": 0.2,
+      "inverse_K": 0,
+      "forward_F": 37,
+      "gamma": 1.50016545380519,
+      "conditional_detection": 0.7791814150714788,
+      "total_detection": 0.7791814150714788
+    },
+    {
+      "epsilon": 0.2,
+      "inverse_K": 1,
+      "forward_F": 13,
+      "gamma": 1.50016545380519,
+      "conditional_detection": 0.8529496582408561,
+      "total_detection": 0.8588316719112219
+    },
+    {
+      "epsilon": 0.2,
+      "inverse_K": 2,
+      "forward_F": 9,
+      "gamma": 1.50016545380519,
+      "conditional_detection": 0.8578073509549837,
+      "total_detection": 0.8689552546401129
+    },
+    {
+      "epsilon": 0.1,
+      "inverse_K": 0,
+      "forward_F": 150,
+      "gamma": 1.5050268393235946,
+      "conditional_detection": 0.778548212761139,
+      "total_detection": 0.778548212761139
+    },
+    {
+      "epsilon": 0.1,
+      "inverse_K": 1,
+      "forward_F": 51,
+      "gamma": 1.515060351585752,
+      "conditional_detection": 0.8532707507881594,
+      "total_detection": 0.8547380432802778
+    },
+    {
+      "epsilon": 0.1,
+      "inverse_K": 2,
+      "forward_F": 32,
+      "gamma": 1.5250938638479092,
+      "conditional_detection": 0.8607119064757608,
+      "total_detection": 0.8634837395368932
+    },
+    {
+      "epsilon": 0.1,
+      "inverse_K": 4,
+      "forward_F": 21,
+      "gamma": 1.5752614251586956,
+      "conditional_detection": 0.8745500363224568,
+      "total_detection": 0.879493265436707
+    },
+    {
+      "epsilon": 0.03,
+      "inverse_K": 0,
+      "forward_F": 1667,
+      "gamma": 1.500750306168276,
+      "conditional_detection": 0.7770874061875046,
+      "total_detection": 0.7770874061875046
+    },
+    {
+      "epsilon": 0.03,
+      "inverse_K": 1,
+      "forward_F": 557,
+      "gamma": 1.5025508464276263,
+      "conditional_detection": 0.8491132981718441,
+      "total_detection": 0.8492490962034894
+    },
+    {
+      "epsilon": 0.03,
+      "inverse_K": 2,
+      "forward_F": 335,
+      "gamma": 1.500750306168276,
+      "conditional_detection": 0.8535945704631274,
+      "total_detection": 0.8538579816478958
+    },
+    {
+      "epsilon": 0.03,
+      "inverse_K": 8,
+      "forward_F": 106,
+      "gamma": 1.5070521970760014,
+      "conditional_detection": 0.8576783960887936,
+      "total_detection": 0.858699889586583
+    },
+    {
+      "epsilon": 0.03,
+      "inverse_K": 16,
+      "forward_F": 67,
+      "gamma": 1.5295589503178773,
+      "conditional_detection": 0.8634371497923666,
+      "total_detection": 0.865390436514016
+    },
+    {
+      "epsilon": 0.01,
+      "inverse_K": 0,
+      "forward_F": 15000,
+      "gamma": 1.5000500026668384,
+      "conditional_detection": 0.7768865751016942,
+      "total_detection": 0.7768865751016942
+    },
+    {
+      "epsilon": 0.01,
+      "inverse_K": 1,
+      "forward_F": 5001,
+      "gamma": 1.5001500060003496,
+      "conditional_detection": 0.8484166132395118,
+      "total_detection": 0.8484317715781878
+    },
+    {
+      "epsilon": 0.01,
+      "inverse_K": 2,
+      "forward_F": 3002,
+      "gamma": 1.5002500093338607,
+      "conditional_detection": 0.8533745188093469,
+      "total_detection": 0.8534038424393302
+    },
+    {
+      "epsilon": 0.01,
+      "inverse_K": 24,
+      "forward_F": 330,
+      "gamma": 1.5018500626700386,
+      "conditional_detection": 0.8564783147377333,
+      "total_detection": 0.8568223709528469
+    },
+    {
+      "epsilon": 0.01,
+      "inverse_K": 49,
+      "forward_F": 201,
+      "gamma": 1.5097503260174174,
+      "conditional_detection": 0.8584910407543653,
+      "total_detection": 0.8591827731134737
+    },
+    {
+      "epsilon": 0.003,
+      "inverse_K": 0,
+      "forward_F": 166667,
+      "gamma": 1.5000075000306003,
+      "conditional_detection": 0.776872015372075,
+      "total_detection": 0.776872015372075
+    },
+    {
+      "epsilon": 0.003,
+      "inverse_K": 1,
+      "forward_F": 55557,
+      "gamma": 1.5000255000846006,
+      "conditional_detection": 0.8483748028971989,
+      "total_detection": 0.8483761675239728
+    },
+    {
+      "epsilon": 0.003,
+      "inverse_K": 2,
+      "forward_F": 33335,
+      "gamma": 1.5000075000306003,
+      "conditional_detection": 0.8533024242241083,
+      "total_detection": 0.8533050647685898
+    },
+    {
+      "epsilon": 0.003,
+      "inverse_K": 83,
+      "forward_F": 1081,
+      "gamma": 1.500745502244611,
+      "conditional_detection": 0.8562135167146162,
+      "total_detection": 0.8563208855935225
+    },
+    {
+      "epsilon": 0.003,
+      "inverse_K": 166,
+      "forward_F": 667,
+      "gamma": 1.5029955089946434,
+      "conditional_detection": 0.8567852312970737,
+      "total_detection": 0.8569990353722241
+    },
+    {
+      "epsilon": 0.001,
+      "inverse_K": 0,
+      "forward_F": 1500000,
+      "gamma": 1.5000005000002665,
+      "conditional_detection": 0.7768700071992392,
+      "total_detection": 0.7768700071992392
+    },
+    {
+      "epsilon": 0.001,
+      "inverse_K": 1,
+      "forward_F": 500001,
+      "gamma": 1.5000015000005997,
+      "conditional_detection": 0.8483678278696438,
+      "total_detection": 0.848367979501816
+    },
+    {
+      "epsilon": 0.001,
+      "inverse_K": 2,
+      "forward_F": 300002,
+      "gamma": 1.5000025000009332,
+      "conditional_detection": 0.8533002224023328,
+      "total_detection": 0.8533005158017414
+    },
+    {
+      "epsilon": 0.001,
+      "inverse_K": 249,
+      "forward_F": 3255,
+      "gamma": 1.5002435000812664,
+      "conditional_detection": 0.856087374550551,
+      "total_detection": 0.8561232043512085
+    },
+    {
+      "epsilon": 0.001,
+      "inverse_K": 499,
+      "forward_F": 2001,
+      "gamma": 1.5009975003326,
+      "conditional_detection": 0.8562788482471562,
+      "total_detection": 0.856350547247344
+    }
+  ]
+}
