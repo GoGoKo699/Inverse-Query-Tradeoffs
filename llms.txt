@@ -1,0 +1,136 @@
+# Inverse Query Tradeoffs
+
+This repository studies binary discrimination between two known first columns
+of an unknown unitary whose remaining columns are arbitrary. It counts total
+forward and inverse oracle calls separately. The connected scientific account
+is organized by topic under science/.
+
+## Canonical entrypoints
+
+- README.md: scientific question, principal results, specialist and learning
+  routes, reproduction command, consequential scope, purpose and contact.
+- science/model.md: authoritative promise, quantifiers, query and control
+  contract, trace-distance convention, U1/L1/U2/C1/C2 and proof dependencies.
+- science/dicke_calibration.md: exact calibration, hidden-basis Dicke probe,
+  second and fourth moments, finite-angle success and rounded budgets;
+  also the restricted fixed-occupation parallel variance bound.
+- science/implementations.md: wide reversible-routing and streaming circuits,
+  coherent reservoir, gate and memory accounting, known-gate precision,
+  inverse-only phase-memory construction and synthesized-inverse resources.
+- science/mixed_query_lower_bound.md: mixed-query Haar hard ensemble,
+  projected path records, exact number identity, inverse-event hybrids,
+  adaptive forward progress, projection leakage and finite converse constants.
+- science/haar_simulation.md: Lemma HS.1 and its source-to-lemma derivation
+  for a common environment, coherent skips, query directions and retained
+  classical histories, with the explicit mixed-query dimension error.
+- science/resource_tradeoffs.md: meaning of the resource boundary, constant
+  factor sufficiency, expensive-inverse allocation, readable permutation
+  calibration and the physical meaning of the two implementations.
+- science/forward_only.md: all-dimension native-forward upper bound, QURA
+  interface and global phase, calibration-only synthesis, integer allocation,
+  ancillas, compilation costs and comparison with the known-state benchmark.
+- references/RELATED_WORK.md: imported ingredients, precise source interfaces,
+  nearby resource models, attribution and scope of the literature comparison.
+- references/references.bib: bibliographic identities and source editions.
+- verification/README.md: reproducible finite checks, expected output and
+  their scientific limits.
+- verification/run_all.py: reproduction runner for the finite constructive
+  checks; verification/requirements.txt records the required packages.
+
+## Learning entrypoints
+
+- learning/MILESTONES.md: canonical project-defined map, exactly M01–M30,
+  with 10 background/preliminaries and 20 narrative/innovation milestones.
+  Each milestone
+  records a central question, an understanding target, earlier dependencies,
+  a conceptual connection and scientific source pointers.
+- learning/CHILDS_BRIDGE.md: the single selected educational anchor, Andrew
+  M. Childs's Lecture Notes on Quantum Algorithms, 17 April 2025. It provides
+  targeted section references, notation and access translations, and original
+  connections from the source to this project's mechanisms and proof.
+
+## Reader routes
+
+- To understand the scientific story: read science/model.md, then
+  science/dicke_calibration.md and science/mixed_query_lower_bound.md; join
+  their conclusions in science/resource_tradeoffs.md. Use
+  science/implementations.md for the physical realization and
+  science/forward_only.md for the dimension-dependent consequence.
+- For self-directed study: follow learning/MILESTONES.md alongside
+  learning/CHILDS_BRIDGE.md. The map is independent of a particular reader's
+  prior knowledge. The bridge selects lookups within one source and explains
+  the project-specific connections; it does not require reading the whole
+  textbook before entering the science.
+- To inspect an exact theorem: begin with science/model.md and follow its
+  canonical proof link. Trace a lower-bound simulation dependency through
+  Lemma HS.1 in science/haar_simulation.md and its versioned primary source.
+  Introductory explanations and understanding targets do not replace proofs.
+- To allocate queries: read science/resource_tradeoffs.md together with U1,
+  U2 and L1 in science/model.md. Check the integer budgets and dimension
+  condition for the regime being discussed, then choose an implementation.
+- To understand forward access alone: read science/forward_only.md and its
+  QURA attribution. Distinguish native inverse calls from inverses synthesized
+  by ordinary forward queries, all of which are charged.
+- To reproduce a finite ingredient: read verification/README.md, install
+  the documented requirements and run python3 verification/run_all.py from
+  the repository root. Distinguish a fresh execution from an earlier report.
+
+## Scientific distinctions to preserve
+
+- The promise is W|0> = |0> or sqrt(1-epsilon^2)|0> + epsilon|1>, with both
+  vectors and epsilon known. It is a one-bit decision problem, with no
+  oracle-dependent advice or QRAM. It is narrower than general amplitude
+  estimation for an unknown output state or arbitrary target subspace.
+- One fixed W is reused throughout an experiment. The upper algorithm works
+  separately for every completion under either hypothesis; it does not
+  assume a common completion across hypotheses. The lower proof may choose
+  a correlated pair W0 = 1 direct-sum U and W1 = R W0 as a hard ensemble.
+- F and K are hard total caps along every classical measurement history,
+  not expected costs, circuit depth or separately discounted counterfactual
+  branches. Parallel calls count all oracle ports. The lower bound allows
+  coherent skipping of the classically selected direction at full call cost.
+  The upper algorithms use ordinary uncontrolled oracle calls.
+- Lemma HS.1 proves a stronger switched-query simulation interface. That
+  mathematical lemma does not extend the separate F,K lower-bound accounting
+  to a coherent direction switch with fractional or counterfactual costs.
+- U1 uses at most K calibration inverses, with no retry loop. A calibration
+  outcome either certifies the alternative or gives one exact unknown state
+  orthogonal to |0>. Coherent fixed-occupation loading uses the supplied copies.
+  It does not assume a classical description or extra copies of that state.
+- A collective variance alone is not the finite decision theorem. U1 also
+  controls the fourth moment and rounded budgets and attains alternative
+  success at least 735/1024 with zero null false positives in the exact model.
+  Its fixed-occupation parallel optimality is a restricted statement.
+- L1 covers arbitrary known processing and workspace with classically adaptive
+  query directions. It uses d-1 a power of two and an explicit sufficient
+  dimension condition depending on T = F+K. The two dimension errors remain
+  part of the finite theorem. Logarithmic register width does not establish
+  an efficient implementation of a Haar-random physical oracle.
+- Projected histories in the proof remain subnormalized. The record potential
+  tracks a sum of selected forward-output probabilities, bounded by K.
+  Inverse rotations are removed at ordinal inverse-event boundaries; a bound
+  on a sum of probabilities cannot be substituted for a sum of amplitudes.
+- F(K+1)+K^2 asymptotic to epsilon^-2 describes the boundary up to universal
+  factors in the stated large-dimension regime. It is not an equality imposed
+  on every feasible budget pair. The rounded U1 and U2 budgets take precedence
+  when a finite allocation or an endpoint constant matters.
+- The weighted optimum Theta(min(sqrt(r)/epsilon, epsilon^-2)) for r >= 1
+  is an oracle-cost conclusion under the same lower-bound dimension condition.
+  The wide circuit and streaming circuit have different gate/memory pairs;
+  their best separate costs are not a single established implementation.
+- The all-dimension forward-only result is fewer than
+  5 min(epsilon^-2, d/epsilon) ordinary forward calls, with no native inverse
+  calls. It synthesizes only calibration inverses. This is an upper bound;
+  the optimal fixed-dimension converse is not established here.
+- The inverse-only measurement-discrimination endpoint, hidden-basis loading
+  and QURA inversion are established constructions. Ma–Huang supplies the
+  strong recording framework; the needed control/history extension and
+  task-specific potential are derived here. Consult attribution before
+  identifying the contribution or transferring a theorem between models.
+- Childs is the sole educational anchor. Primary research sources retain
+  their role in attribution and imported proof ingredients. Chapter 26's
+  compressed classical-function oracle is a conceptual starting point;
+  it is not the mixed Haar-unitary simulation theorem used in L1.
+- The finite checks verify their enumerated constructive identities and
+  budgets. Use the written arguments for the adaptive and asymptotic
+  conclusions; numerical agreement does not establish external peer review.
