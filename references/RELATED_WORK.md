@@ -108,6 +108,12 @@ Proposition 1 characterizes when input/output sample states determine coherent a
 
 This observation is an interface comparison, not a converse for all inverse-query strategies, which can acquire additional coherent information. The Dicke experiment needs a fixed-occupation decision experiment and continued correlated oracle access, rather than universal emulation from samples alone.
 
+## Childs2025
+
+Andrew M. Childs, **Lecture Notes on Quantum Algorithms**, author-hosted edition dated **17 April 2025**. [Official source page](https://www.cs.umd.edu/~amchilds/qa/), [notes](https://www.cs.umd.edu/~amchilds/qa/qa.pdf).
+
+This is the single educational anchor for the [30-milestone map](../learning/MILESTONES.md). The [Childs bridge](../learning/CHILDS_BRIDGE.md) maps selected foundations, Section 19.3, Chapters 21 and 23, and Chapter 26 to the project's oracle contract, constructive mechanism and lower-bound method. It supplies the connections to unknown calibration states and mixed Haar-unitary records locally. The notes are an entry into the research; the primary papers above supply the separately identified imported constructions and theorem ingredients.
+
 ## Attribution boundaries
 
 The [model page](../science/model.md) assigns each theorem an exact scope and an authoritative proof. The bibliography fixes source versions so that numbered statements can be located. The direction-sensitive potential, finite constructive decision guarantee and synthesized-calibration consequence are derived in this repository; their imported ingredients retain the attributions above. Numerical reproduction checks are evidence for their enumerated identities, not evidence that a literature search is exhaustive or that an analytical theorem has been externally certified.

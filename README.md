@@ -40,6 +40,14 @@ Start with the [question, oracle contract and exact statements](science/model.md
 | Which ingredients are established, and what conclusion is added? | [Related work](references/RELATED_WORK.md) and [bibliography](references/references.bib) |
 | Which calculations can be reproduced? | [Verification](verification/README.md) |
 
+## Learn the project
+
+The single educational anchor is **Andrew M. Childs, [Lecture Notes on Quantum Algorithms](https://www.cs.umd.edu/~amchilds/qa/qa.pdf), 17 April 2025**. The [Childs bridge](learning/CHILDS_BRIDGE.md) selects the relevant sections, translates notation and oracle assumptions, and develops the connections from amplitude amplification and compressed oracles to calibrated probes and mixed Haar-unitary records.
+
+The [30-milestone understanding map](learning/MILESTONES.md) has **10 background/preliminaries milestones** and **20 narrative/innovation milestones**. The background builds the full oracle and decision model. The narrative develops the calibrated-probe construction and the adaptive lower bound, joins them into the resource frontier, and derives the cost and dimension consequences. Each milestone has a central question, an understanding target, earlier dependencies, a conceptual connection and direct source pointers. The map is defined by the project and is common to every reader.
+
+Start with the bridge's targeted reading route and use it alongside the milestones. Exact theorem statements and full proofs remain in the science pages above; the bridge identifies the steps supplied by this project and the imported research ingredients. The [LLM reading guide](llms.txt) maps scientific questions and study intentions to their authoritative files.
+
 ## Reproduce the finite checks
 
 From the repository root, with the packages in [verification/requirements.txt](verification/requirements.txt) installed, run:
